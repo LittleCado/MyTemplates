@@ -11,4 +11,4 @@ Animate css можно подключить с помощью CDN
 />
 ```
 Каждому элементу с анимацией в не зависимости от того какая анимация у него используется писать класс animate__animated + класс с названием анимации animate__названиеанимации
-В итоге получается что-то вроде этого <div class="animate__animated animate__fadeInUp wow">
+В итоге получается что-то вроде этого `<div class="animate__animated animate__fadeInUp wow">`
