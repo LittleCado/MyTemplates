@@ -4,9 +4,11 @@
 На момент написания этого файла появился другой способ и названия анимаций поменялись
 С wow.js ничего не поменялось, кладем wow.min.js рядом и подключаем его в index.html
 Animate css можно подключить с помощью CDN
+```
 <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
 />
+```
 Каждому элементу с анимацией в не зависимости от того какая анимация у него используется писать класс animate__animated + класс с названием анимации animate__названиеанимации
 В итоге получается что-то вроде этого <div class="animate__animated animate__fadeInUp wow">
