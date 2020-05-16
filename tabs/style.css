@@ -1,0 +1,50 @@
+.tab-nav {
+  list-style-type: none;
+  font-size: 0;
+}
+
+.tab-nav li {
+  display: inline-block;
+}
+
+.tab-nav li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  margin-right: 30px;
+  padding-bottom: 3px;
+}
+
+.tab-nav li a.active {
+  border-bottom: 2px black solid;
+}
+
+.faded {
+  opacity: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.faded.in {
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+#one {
+  background-color: #d4e9b2;
+}
+
+#two {
+  background-color: #a6ecdd;
+}
+/*# sourceMappingURL=style.css.map */
