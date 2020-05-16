@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Формы</title>
+</head>
+
+<body>
+	<p>Сколько вам лет(Форма на переключателях)</p>
+	<ol>
+		<li><input type="radio" name="age" value="less24" checked="checked">младше 24</li>
+		<li><input type="radio" name="age" value="25-34">от 25 до 34</li>
+		<li><input type="radio" name="age" value="34-44">от 34 до 44</li>
+	</ol>
+	
+	<p>Какую музыку вы слушаете?(Форма на флажках)</p>
+	<ul>
+		<li><input type="checkbox" name="genre" value="rock" checked="checked">Рок</li>
+		<li><input type="checkbox" name="genre" value="indie" checked="checked">Инди</li>
+		<li><input type="checkbox" name="genre" value="techno">Техно</li>
+	</ul>
+	
+	<p>Какая ваша любимая группа восьмидесятых?(Форма на раскрывающемся списке)</p>
+	<select name=MEightiesFave">
+		<option>The Cure</option>
+		<option>Cocteau Twins</option>
+		<option>Tears for Fears</option>
+		<option>Thompson Twins</option><по умолчанию на сервер отправляются текст заключенный между option>
+		<option value=EBTGM>Everything But the Girl</option><если нужно отправить другую инфу при выборе этого пункта используем атрибут value>
+		<option>Depeche Mode</option>
+		<option>The Smiths</option>
+		<option>New Order</option>
+	</select>
+	
+	<p>Вкусы мороженного(Форма на раскрывающемся списке с группировкой)</p>
+	<select name="icecream" size="7" multiple>
+	<optgroup label="Традиционные">
+		<option>Ванильный</option>
+		<option>Шоколадный</option>
+	</optgroup>
+	<optgroup label="Интересные">
+		<option>Фруктовый лед</option>
+		<option>Ореховое</option>
+		<option>Карамельное</option>
+	</optgroup>
+	</select>
+	
+	<p><form action="/client.php" method="POST" enctype = "multipart/form-data">
+	<label>Загрузите фотографию для аватара<em>(необязательно)</em><br>
+	<input type="file" name="photo" size="28"></label>
+	</form></p>
+	
+	<p>
+	<input type="date">
+	<input type="time">
+	<input type="datetime">
+	<input type="datetime-local">
+	<input type="month">
+	<input type="week">
+	</p>
+	
+	<p><label>Ваш любимый цвет <input type="color" name="favorite"></label></p>
+
+	<label for="form-login-username">имя пользователя:</label>
+	<input type="text" name="loginf" id="form-login-username">
+	<label for="form-login-password">Пapoль :</label>
+	<input type="password" name="password" id="form-loginpassword">
+</body>
+
+</html>
