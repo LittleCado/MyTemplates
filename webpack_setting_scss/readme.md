@@ -25,7 +25,7 @@
     * `"build": "webpack",`
     * `"start": "webpack --watch"`
     
-    
+    `package.json`:
     ```json
      //...
          "description": "",
