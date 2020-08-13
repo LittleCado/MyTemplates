@@ -1,1 +1,1 @@
-This is repo with my js, css templates for sites. Using libraries.
+This is repo with my js, css templates.
