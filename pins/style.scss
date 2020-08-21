@@ -27,6 +27,19 @@ body{
     width: 0;
     height: 0;
     position: absolute;
+
+    &:checked{
+      & + .button__icon{
+        cursor: default;
+        
+        .button__caption {
+          opacity: 0;
+          cursor: default;
+          pointer-events: none;
+          transition-delay: 0s;
+        }
+      }
+    }
   }
 
   &__caption{

@@ -55,7 +55,7 @@
       <workItem from="1596989192739" duration="46000" />
       <workItem from="1597335244311" duration="250000" />
       <workItem from="1597335613192" duration="4481000" />
-      <workItem from="1597924308582" duration="5743000" />
+      <workItem from="1597924308582" duration="6365000" />
     </task>
     <task id="LOCAL-00001" summary="Log in from Webstorm">
       <created>1596988188415</created>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597926551239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add pin pulsation">
+      <created>1598011934048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598011934048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,13 +107,14 @@
     <MESSAGE value="Log in from Webstorm" />
     <MESSAGE value="Add webpack template" />
     <MESSAGE value="Add pins project skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add pins project skeleton" />
+    <MESSAGE value="Add pin pulsation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pin pulsation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1597926550522">
+    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598011933369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597926550522" />
+    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598011933369" />
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1597926188355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
