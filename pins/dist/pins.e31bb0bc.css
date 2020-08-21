@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Alata", sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #1f1f1f;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+}
+.button__input {
+  appearance: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.button__input:checked + .button__icon {
+  cursor: default;
+}
+.button__input:checked + .button__icon .button__caption {
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+  transition-delay: 0s;
+}
+.button__input:checked + .button__icon .button__content {
+  transition-delay: 0s;
+  opacity: 1;
+  transition: 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99) opacity 0.2s, 0s visibility;
+  visibility: visible;
+}
+.button__input:checked + .button__icon .button__content .button__title,
+.button__input:checked + .button__icon .button__content .button__description {
+  opacity: 1;
+  transition: 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99) opacity 0.7s;
+}
+.button__input:checked + .button__icon .button__content::after {
+  transform: scale(1);
+  border-radius: 10px;
+  transition: 0.6s transform cubic-bezier(0.37, 0.01, 0.27, 0.99) 0.2s, 0.6s border-radius cubic-bezier(0.37, 0.01, 0.27, 0.99) 0.2s;
+}
+.button__caption {
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+  font-size: 24px;
+  top: 50%;
+  right: -20px;
+  transform: translate(100%, -50%);
+  white-space: nowrap;
+  z-index: 1;
+  transition: 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99);
+}
+.button__icon {
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99);
+  justify-content: center;
+  position: relative;
+}
+.button__icon::after {
+  animation: move 2.66s cubic-bezier(0.37, 0.01, 0.27, 0.99) infinite;
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  transition: 0.3s transform cubic-bezier(0.37, 0.01, 0.27, 0.99);
+  border: 1px solid #fff;
+  z-index: 10;
+}
+.button__content {
+  position: absolute;
+  z-index: 14;
+  width: 260px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  transition: 0.3s opacity 0.4s cubic-bezier(0.37, 0.01, 0.27, 0.99), 0s visibility 0.7s;
+  box-sizing: border-box;
+  min-height: 275px;
+  padding: 50px 15px;
+  opacity: 0;
+}
+.button__content::after {
+  content: "";
+  background-color: #fff;
+  z-index: 2;
+  position: absolute;
+  transform: scale(0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  transition: 0.6s transform cubic-bezier(0.37, 0.01, 0.27, 0.99) 0.1s, 0.6s border-radius cubic-bezier(0.37, 0.01, 0.27, 0.99) 0.1s;
+}
+.button__title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Muli", sans-serif;
+  opacity: 0;
+  transition: 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99) opacity;
+  position: relative;
+  z-index: 20;
+}
+.button__description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Muli", sans-serif;
+  opacity: 0;
+  transition: 0.3s cubic-bezier(0.37, 0.01, 0.27, 0.99) opacity;
+  position: relative;
+  z-index: 20;
+}
+
+@keyframes move {
+  50% {
+    transform: scale(1.28);
+  }
+}
+
+/*# sourceMappingURL=/pins.e31bb0bc.css.map */
