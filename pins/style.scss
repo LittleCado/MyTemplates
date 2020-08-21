@@ -7,13 +7,69 @@
 body{
   height: 100vh;
   overflow: hidden;
+  font-family: 'Alata', sans-serif;
 }
 
 .wrapper{
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: gray;
+  background-color: #1f1f1f;
   justify-content: space-around;
   align-items: center;
+}
+
+.button{
+  position: relative;
+
+  &__input{
+    appearance: none;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+
+  &__caption{
+    cursor: pointer;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    top: 50%;
+    right: -20px;
+    transform: translate(100%, -50%);
+    white-space: nowrap;
+    z-index: 1;
+    transition: 0.3s cubic-bezier(.37, .01, .27, .99);
+  }
+
+  &__icon {
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s cubic-bezier(.37, .01, .27, .99);
+    justify-content: center;
+    position: relative;
+    &::after {
+      animation: move 2.66s cubic-bezier(.37,.01,.27,.99) infinite;
+      box-sizing: border-box;
+      content: "";
+      position: absolute;
+      top: -9px;
+      left: -9px;
+      height: 32px;
+      width: 32px;
+      border-radius: 100%;
+      transition: 0.3s transform cubic-bezier(.37,.01,.27,.99);
+      border: 1px solid #fff;
+      z-index: 10;
+    }
+  }
+}
+
+@keyframes move {
+  50% {
+    transform: scale(1.28);
+  }
 }
