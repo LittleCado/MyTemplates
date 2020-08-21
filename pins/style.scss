@@ -31,12 +31,31 @@ body{
     &:checked{
       & + .button__icon{
         cursor: default;
-        
+
         .button__caption {
           opacity: 0;
           cursor: default;
           pointer-events: none;
           transition-delay: 0s;
+        }
+
+        .button__content {
+          transition-delay: 0s;
+          opacity: 1;
+          transition: 0.3s cubic-bezier(.37,.01,.27,.99) opacity 0.2s, 0s visibility;
+          visibility: visible;
+
+          .button__title,
+          .button__description {
+            opacity: 1;
+            transition: 0.3s cubic-bezier(.37,.01,.27,.99) opacity 0.7s;
+          }
+
+          &::after {
+            transform: scale(1);
+            border-radius: 10px;
+            transition: 0.6s transform cubic-bezier(.37,.01,.27,.99) 0.2s, 0.6s border-radius cubic-bezier(.37,.01,.27,.99) 0.2s;
+          }
         }
       }
     }
@@ -78,6 +97,55 @@ body{
       border: 1px solid #fff;
       z-index: 10;
     }
+  }
+
+  &__content {
+    position: absolute;
+    z-index: 14;
+    width: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    transition: 0.3s opacity 0.4s cubic-bezier(.37,.01,.27,.99), 0s visibility 0.7s;
+    box-sizing: border-box;
+    min-height: 275px;
+    padding: 50px 15px;
+    opacity: 0;
+
+    &::after {
+      content: "";
+      background-color: #fff;
+      z-index: 2;
+      position: absolute;
+      transform: scale(0);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      transition: 0.6s transform cubic-bezier(.37,.01,.27,.99) 0.1s, 0.6s border-radius cubic-bezier(.37,.01,.27,.99) 0.1s;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    opacity: 0;
+    transition: 0.3s cubic-bezier(.37,.01,.27,.99) opacity;
+    position: relative;
+    z-index: 20;
+  }
+
+  &__description {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    opacity: 0;
+    transition: 0.3s cubic-bezier(.37,.01,.27,.99) opacity;
+    position: relative;
+    z-index: 20;
   }
 }
 

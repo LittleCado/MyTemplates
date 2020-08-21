@@ -6,14 +6,22 @@ html(lang='ru')
         title Pins
         link(href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet")
     body
-        .wrapper
+        label.wrapper
+            input.button__input(type='radio', name='button')
             label.button
                 input.button__input(type='radio', name='button')
                 .button__icon
                     .button__caption Brightness mode
+                    .button__content
+                        .button__title Brightness mode
+                        .button__description The design of the pocket flashlight Xiaomi built-in digital encoder
+
             label.button
                 input.button__input(type='radio', name='button')
                 .button__icon
-                    .button__caption Charging power
+                    .button__caption Battery capacity
+                    .button__content
+                        .button__title Brightness mode
+                        .button__description The design of the pocket flashlight Xiaomi built-in digital encoder The design of the pocket flashlight Xiaomi built-in digital encoder
 
         script(src="index.js")
