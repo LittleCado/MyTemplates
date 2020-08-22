@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #e39000, #c711e0);
+}
+
+.container{
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container:hover .card{
+    filter: blur(20px);
+    transform: scale(.9);
+    opacity: 0.5;
+}
+
+.container .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: .4s;
+
+}
+
+.card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+.card .circle .h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: white;
+    padding: 20px 0;
+}
+
+.card .content{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card .content p{
+    color: #666;
+}
+
+.card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+    background: #000;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.card:nth-child(1) .circle,
+.card:nth-child(1) a{
+    background: #5916c6;
+}
+
+.card:nth-child(2) .circle ,
+.card:nth-child(2) a{
+    background: #16c68e;
+}
+
+.card:nth-child(3) .circle,
+.card:nth-child(3) a{
+    background: #90c616;
+}
