@@ -24,51 +24,37 @@ body{
     width: 300px;
 }
 
-.navigation ul{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.navigation ul li{
-    position: relative;
-    width: 100%;
-    list-style: none;
-    transition: .4s;
-}
-
-.navigation ul li:hover{
-    background: #2e4085;
-}
-
-.navigation ul li a{
-    position: relative;
+.navigation a{
     display: flex;
+    align-content: center;
     width: 100%;
     text-decoration: none;
     color: #ffffff;
+    transition: .4s;
 }
 
-.navigation ul li .icon{
-    position: relative;
-    display: block;
+.navigation a:hover{
+    background: #2e4085;
+}
+
+.navigation .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 60px;
     height: 60px;
-    line-height: 60px;
-    text-align: center;
 }
 
-.navigation ul li .icon .fa{
+.navigation .icon .fa{
     font-size: 24px;
 }
 
-.navigation ul li .title{
-    position: relative;
-    display: block;
+.navigation .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0 10px;
     height: 60px;
-    line-height: 60px;
     text-align: start;
     white-space: nowrap;
 }
