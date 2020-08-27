@@ -11,9 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sidebar_menu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar_menu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar_menu/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404_page/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404_page/Scarecrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404_page/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +51,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Viach\Documents\MyWork\MyTemplates\404_page" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
