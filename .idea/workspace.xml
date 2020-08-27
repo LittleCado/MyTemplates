@@ -10,12 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/404_page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404_page/Scarecrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404_page/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="404-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598014239568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add 404 page">
+      <created>1598552006229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598552006229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,12 +151,14 @@
     <MESSAGE value="Add caption disappearing when pin is checked" />
     <MESSAGE value="Add production version" />
     <MESSAGE value="Add cloud banner parralax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cloud banner parralax" />
+    <MESSAGE value="Add 404 page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 404 page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1598012315966">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2511" y="1" key="CommitChangelistDialog2" timestamp="1598552005407">
+      <screen x="1920" y="1" width="1920" height="1040" />
     </state>
+    <state x="2511" y="1" key="CommitChangelistDialog2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598552005407" />
     <state x="473" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598012315966" />
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1597926188355">
       <screen x="0" y="0" width="1536" height="824" />
@@ -168,9 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597926264498" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598187460014">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1598552080860">
+      <screen x="1920" y="1" width="1920" height="1040" />
     </state>
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598552080860" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598187460014" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1598015147170">
       <screen x="0" y="0" width="1536" height="824" />
