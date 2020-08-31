@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border-left: 1px solid #085353;
+}
+.s1{
+    background-color: #bf6464;
+}
+.s2{
+    background-color: #67bf64;
+}
+.s3{
+    background-color: #64bcbf;
+}
+
+.inner-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 300vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.outer-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+
+    /*to disable scrollbars in browsers*/
+    /*Firefox*/
+    scrollbar-width: none;
+
+    /*IE*/
+    -ms-overflow-style: none;
+}
+
+/*Chrome and Safari*/
+::-webkit-scrollbar{
+    display: none;
+}
