@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+
+.outer-wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*to disable scrollbars in browsers*/
+    /*Firefox*/
+    scrollbar-width: none;
+    /*IE*/
+    -ms-overflow-style: none;
+}
+/*Chrome and Safari*/
+::-webkit-scrollbar{
+    display: none;
+}
+
+.inner-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 300vw;
+    transition: 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .slide{
     display: flex;
     justify-content: center;
@@ -22,51 +50,14 @@
     background-color: #64bcbf;
 }
 
-.inner-wrapper{
-    display: flex;
-    flex-direction: row;
-    width: 300vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-}
-
-.outer-wrapper{
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-
-    /*to disable scrollbars in browsers*/
-    /*Firefox*/
-    scrollbar-width: none;
-
-    /*IE*/
-    -ms-overflow-style: none;
-}
-
-/*Chrome and Safari*/
-::-webkit-scrollbar{
-    display: none;
-}
-
 @media (max-width: 800px) {
     .inner-wrapper{
         flex-direction: column;
         width: auto;
-        transform: rotate(-90deg);
     }
 
     .outer-wrapper {
-        width: 100vw;
-        height: auto;
-        transform: rotate(90deg);
         overflow-x: revert;
         overflow-y: visible;
-        position: absolute;
-        top: 0;
-        left: 0;
     }
 }
