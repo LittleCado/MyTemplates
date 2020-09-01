@@ -51,3 +51,22 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 800px) {
+    .inner-wrapper{
+        flex-direction: column;
+        width: auto;
+        transform: rotate(-90deg);
+    }
+
+    .outer-wrapper {
+        width: 100vw;
+        height: auto;
+        transform: rotate(90deg);
+        overflow-x: revert;
+        overflow-y: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
