@@ -1,1 +1,2 @@
-This is repo with my js, css templates.
+# My Templates
+This is repo with `JS`, `CSS` templates.
