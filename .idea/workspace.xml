@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="Add firebase init files for 404 page">
-      <change afterPath="$PROJECT_DIR$/horisontal__scroll/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horisontal__scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/horisontal__scroll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/horisontal__scroll/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/horisontal__scroll/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,6 +85,13 @@
       <workItem from="1598627420365" duration="2354000" />
       <workItem from="1598905172124" duration="103000" />
       <workItem from="1598951365334" duration="2002000" />
+      <workItem from="1599031906412" duration="1982000" />
+      <workItem from="1599038283598" duration="14000" />
+      <workItem from="1599040688194" duration="913000" />
+      <workItem from="1599044650773" duration="44000" />
+      <workItem from="1599044706110" duration="58000" />
+      <workItem from="1599046239458" duration="17000" />
+      <workItem from="1599046411014" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Log in from Webstorm">
       <created>1596988188415</created>
@@ -188,10 +193,10 @@
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="2156" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598962878203" />
-    <state x="2511" y="1" key="CommitChangelistDialog2" timestamp="1598553006547">
+    <state x="2511" y="1" key="CommitChangelistDialog2" timestamp="1599040700088">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2511" y="1" key="CommitChangelistDialog2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598553006547" />
+    <state x="2511" y="1" key="CommitChangelistDialog2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599040700088" />
     <state x="473" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598012315966" />
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1597926188355">
       <screen x="0" y="0" width="1536" height="824" />
@@ -201,23 +206,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="547" y="31" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598165878607" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1597926264498">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2266" y="73" key="SettingsEditor" timestamp="1599044692663">
+      <screen x="1920" y="1" width="1920" height="1040" />
     </state>
+    <state x="2266" y="73" key="SettingsEditor/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599044692663" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597926264498" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1598953644006">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1598983331399">
+      <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598905384296" />
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598983331399" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598953644006" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1598015147170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598015147170" />
-    <state x="2654" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598552869776">
+    <state x="2654" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599046246251">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2654" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598552869776" />
+    <state x="2654" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599046246251" />
     <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598176363284" />
     <state x="557" y="43" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598116089420">
       <screen x="0" y="0" width="1536" height="824" />
