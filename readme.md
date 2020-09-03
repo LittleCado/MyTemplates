@@ -21,6 +21,7 @@ This is repo with `JS`, `CSS` templates.
 - [ScrollOut](https://scroll-out.github.io) - Detects changes in scroll for reveal, parallax, and CSS Variable effects
 - [Ztext.js](https://bennettfeely.com/ztext) - 3D typography for the web. Works with every font
 - [Shoelace](https://shoelace.style/) - A forward-thinking library of web components
+- [Anime.js](https://github.com/juliangarnier/anime) - JavaScript animation engine
 
 
 
