@@ -22,6 +22,7 @@ This is repo with `JS`, `CSS` templates.
 - [Ztext.js](https://bennettfeely.com/ztext) - 3D typography for the web. Works with every font
 - [Shoelace](https://shoelace.style/) - A forward-thinking library of web components
 - [Anime.js](https://github.com/juliangarnier/anime) - JavaScript animation engine
+- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 
 
 
