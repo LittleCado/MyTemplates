@@ -11,6 +11,7 @@ This is repo with `JS`, `CSS` templates.
 - [Animate.css](https://animate.style/) - CSS animations
 - [Bootstrap](https://getbootstrap.com/)
 - [Bootstrap Vue](https://bootstrap-vue.org/)
+- [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) - A smooth 3D tilt javascript library
 
 
 
