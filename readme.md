@@ -12,6 +12,7 @@ This is repo with `JS`, `CSS` templates.
 - [Bootstrap](https://getbootstrap.com/)
 - [Bootstrap Vue](https://bootstrap-vue.org/)
 - [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) - A smooth 3D tilt javascript library
+- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 
 
 
@@ -23,7 +24,6 @@ This is repo with `JS`, `CSS` templates.
 - [Ztext.js](https://bennettfeely.com/ztext) - 3D typography for the web. Works with every font
 - [Shoelace](https://shoelace.style/) - A forward-thinking library of web components
 - [Anime.js](https://github.com/juliangarnier/anime) - JavaScript animation engine
-- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 
 
 
