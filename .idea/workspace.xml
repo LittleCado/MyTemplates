@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3d_cards/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3d_cards/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animated_navbar/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animated_navbar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animated_navbar/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -96,6 +97,9 @@
       <workItem from="1599046411014" duration="212000" />
       <workItem from="1599329870891" duration="3710000" />
       <workItem from="1599400764741" duration="7072000" />
+      <workItem from="1599482719315" duration="152000" />
+      <workItem from="1599503800370" duration="12000" />
+      <workItem from="1599915001973" duration="10296000" />
     </task>
     <task id="LOCAL-00001" summary="Log in from Webstorm">
       <created>1596988188415</created>
@@ -206,7 +210,8 @@
     <MESSAGE value="Add adaptive to horisontal scroll" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Add cursor animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cursor animation" />
+    <MESSAGE value="Add cards 3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cards 3d" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2156" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598962878203">
@@ -222,6 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="190" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1597926188355" />
+    <state x="499" y="110" key="FileChooserDialogImpl" timestamp="1599482845105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="110" key="FileChooserDialogImpl/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1599482845105" />
     <state x="547" y="31" key="RollbackChangesDialog" timestamp="1598165878607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -231,14 +240,15 @@
     </state>
     <state x="2266" y="73" key="SettingsEditor/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599044692663" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597926264498" />
-    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1599333737790">
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1599419033986">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599333737790" />
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599419033986" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598953644006" />
-    <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1598015147170">
+    <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1599482720186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="378" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.1.1920.1040@0.0.1536.824" timestamp="1599482720186" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598015147170" />
     <state x="2654" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599046246251">
       <screen x="1920" y="1" width="1920" height="1040" />
