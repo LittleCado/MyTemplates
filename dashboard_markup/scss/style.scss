@@ -1,0 +1,148 @@
+@import "variables";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color: $background-accent;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  background: $background-accent;
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 2rem;
+  nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85px;
+    transition: .3s;
+    .logo{
+      margin-bottom: 4rem;
+    }
+    .link{
+      display: grid;
+      place-items: center;
+      margin-bottom: 2rem;
+      opacity: .5;
+      transition: .5s;
+      text-decoration: none;
+
+      &.active{
+        opacity: 1;
+      }
+      &:hover{
+        opacity: 1;
+      }
+      img{
+        margin-bottom: 1rem;
+      }
+      .text{
+        color: $color-accent;
+      }
+    }
+  }
+}
+
+main{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-gap: 2rem;
+  width: calc(100vw - 85px);
+  min-height: 100vh;
+  background: $background;
+  border-bottom-left-radius: $border-rad-xl;
+  border-top-left-radius: $border-rad-xl;
+  box-shadow: -5px 0px 20px 0px rgba(50, 50, 50, 0.3);
+  padding: 2rem 3rem;
+}
+
+.top{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .search{
+    margin-right: 2rem;
+    border-radius: 20px;
+    height: 30px;
+  }
+  img{
+    margin-right: 1rem;
+  }
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+  width: 100%;
+  .room-stats{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas:
+              'header header header'
+              'card1  card2  card3';
+    .room-stats-heading{
+      grid-area: header;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      color: $color-header;
+    }
+    .room-info{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+              'text   column'
+              'number column';
+      grid-gap: 1rem;
+      box-shadow: 0px 5px 35px 0px rgba(50, 50, 50, 0.15);
+      border-radius: $border-rad-md;
+      padding: 1rem;
+      .info-name{
+        grid-area: text;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: $color-main-text;
+      }
+      .number{
+        grid-area: number;
+        font-size: 36px;
+        font-weight: 600;
+        color: $color-main-text;
+      }
+      .column{
+        grid-area: column;
+        border-radius: $border-rad-sm;
+        width: 75px;
+        justify-self: end;
+      }
+      .column1{
+        background: $background-1;
+      }
+      .column2{
+        background: $background-2;
+      }
+      .column3{
+        background: $background-3;
+      }
+    }
+  }
+  .rooms{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+}

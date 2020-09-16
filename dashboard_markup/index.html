@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="#">
+                <img src="img/logo.svg" alt="">
+            </a>
+            <a class="link active" href="">
+                <img src="img/nav/home.svg" alt="">
+                <span class="text">Rooms</span>
+            </a>
+            <a class="link" href="">
+                <img src="img/nav/lock.svg" alt="">
+                <span class="text">Security</span>
+            </a>
+            <a class="link" href="">
+                <img src="img/nav/data.svg" alt="">
+                <span class="text">Statistics</span>
+            </a>
+            <a class="link" href="">
+                <img src="img/nav/people.svg" alt="">
+                <span class="text">Members</span>
+            </a>
+            <a class="link" href="">
+                <img src="img/nav/dollar.svg" alt="">
+                <span class="text">Billing</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="top">
+            <input type="text" class="search" placeholder="Search">
+            <a href=""><img src="img/top/setting.svg" alt=""></a>
+            <a href=""><img src="img/top/bell.svg" alt=""></a>
+            <a href=""><img src="img/top/user.svg" alt=""></a>
+        </div>
+        <div class="container">
+            <div class="room-stats">
+                <h1 class="room-stats-heading">Kitchen</h1>
+                <div class="room-info">
+                    <h3 class="info-name">Room's <br> Temperature</h3>
+                    <div class="number">+23.5 C</div>
+                    <div class="column column1"></div>
+                </div>
+                <div class="room-info">
+                    <h3 class="info-name">Room’s <br> Humidity</h3>
+                    <div class="number">40%</div>
+                    <div class="column column2"></div>
+                </div>
+                <div class="room-info">
+                    <h3 class="info-name">Room’s <br> Lightning</h3>
+                    <div class="number">86%</div>
+                    <div class="column column3"></div>
+                </div>
+            </div>
+            <div class="devices-container">
+                <h2>Devices</h2>
+                <div class="devices"></div>
+            </div>
+            <div class="rooms">
+                <div class="room"><img src="" alt=""><span></span></div>
+                <div class="room"><img src="" alt=""><span></span></div>
+                <div class="room"><img src="" alt=""><span></span></div>
+                <div class="room"><img src="" alt=""><span></span></div>
+            </div>
+        </div>
+    </main>
+
+<script src="index.js"></script>
+</body>
+</html>
