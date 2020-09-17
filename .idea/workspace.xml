@@ -11,12 +11,168 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a9946d3-d1ac-4ee0-9e00-b70f003fe795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard_markup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard_markup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard_markup/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard_markup/scss/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard_markup/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/05/65373fb0e4d76a7b6f93d451b964f5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/10/dc762ee25c34ccb60b4d7667200f15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/16/edd674ba959c7f91dd635877550e1e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/1a/474aa930adcf6711a268d1287588a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/24/caa5afede608cef40eb6ae75ef2292.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/29/6f06685b0a0ffda939fc83886b6423.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/3b/ff48eb4cf76d3681416936e928165f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/46/0fe77bc6127e12d2511bbd7ca722cc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/4c/b80b8f86c70de5ae9c9e07e05fd937.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/5a/9f00366865600c13782c0a91dfd694.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/5b/231a0b66f4c2a7f4cd32c5828d9526.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/5e/6e17f5cffaca7615ca32b9ed448628.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/68/1044f25d22b115951d0ed0b017f740.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/6d/086b645d341e1da30b4607e2741d13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/6f/afcf5182e4b0af616102f90afbbf43.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/83/0fe635b715d45fbca88257b96575b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/a2/aab19cbd0cd553c1a6051eb531527f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/a2/ea2ebc69d973be1c09f64e4f1f9e67.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/a7/48c67c1c9ad8893cab68bf118eb502.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/bd/825c6b6724c7bca424c731159f2f04.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/be/c5d6c77b09fd60d3f96e6a848898f9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/bf/67d722cfaaa4f53e87244956ee9672.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/c9/52551a7086872e7d720838a8cd78cb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/db/68928f23b2597d88129f280fe89b79.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/e0/6a5d39e9aab90c362c6a8593655b02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/e9/89e47f617ee98f80eb50ec2ec4db91.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/f5/7608cf972d98879c73fe5dcc5ece45.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/f5/7729cd975c0a0b713c8f36797b76f9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/.cache/fd/0dcbd17932599301e39966ef8b8684.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/bed.6c5871f8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/bell.f4640782.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/cooker.169596fe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/dashboard_markup.e31bb0bc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/dashboard_markup.e31bb0bc.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/dashboard_markup.e31bb0bc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/dashboard_markup.e31bb0bc.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/data.56d477a3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/dollar.52e490c2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/fridge.b9681615.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/grill.52da4b60.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/home.9eebb73a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/kettle.b12c13e9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/lock.6d3737eb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/logo.f1d8a4c6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/microwave.bfece9cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/people.d5341926.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/setting.4743372f.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/sofa.32a6edcc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/stove.56a7a721.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/stove.59fc4a2a.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/style.e308ff8e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/style.e308ff8e.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/style.e308ff8e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/style.e308ff8e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/toilet.a77c8695.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/tv.7307b419.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/user.57666ffb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/dist/washer.e4e53aba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/cooker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/fridge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/grill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/kettle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/microwave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/stove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/devices/washer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/rooms/bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/rooms/sofa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/rooms/stove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/img/rooms/toilet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/.bin/sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/.bin/sass.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/.bin/sass.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/anymatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/anymatch/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/anymatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/anymatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/binary-extensions.json.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/binary-extensions/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/compile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/expand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/braces/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/chokidar/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/fill-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/fill-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/fill-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/glob-parent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/glob-parent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/glob-parent/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/glob-parent/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-binary-path/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-binary-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-binary-path/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-binary-path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-extglob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-extglob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-extglob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-number/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/is-number/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/normalize-path/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/normalize-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/normalize-path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/lib/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/lib/picomatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/lib/scan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/picomatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/readdirp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/readdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/readdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/sass/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/sass/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/sass/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/sass/sass.dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard_markup/node_modules/to-regex-range/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard_markup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard_markup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard_markup/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard_markup/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard_markup/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard_markup/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +261,8 @@
       <workItem from="1599503800370" duration="12000" />
       <workItem from="1599915001973" duration="10296000" />
       <workItem from="1600068495360" duration="9000" />
-      <workItem from="1600274131709" duration="10578000" />
+      <workItem from="1600274131709" duration="10805000" />
+      <workItem from="1600356798260" duration="6756000" />
     </task>
     <task id="LOCAL-00001" summary="Log in from Webstorm">
       <created>1596988188415</created>
@@ -184,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599333187191</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add dashboard">
+      <created>1600286595595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600286595595</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,17 +381,22 @@
     <MESSAGE value="Update readme" />
     <MESSAGE value="Add cursor animation" />
     <MESSAGE value="Add cards 3d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cards 3d" />
+    <MESSAGE value="Add dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dashboard" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2643" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600286641786">
+      <screen x="1920" y="1" width="1920" height="1040" />
+    </state>
+    <state x="2643" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1600286641786" />
     <state x="2156" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598962878203">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
     <state x="2156" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1598962878203" />
-    <state x="2511" y="1" key="CommitChangelistDialog2" timestamp="1599333186146">
+    <state x="2511" y="1" key="CommitChangelistDialog2" timestamp="1600286594255">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2511" y="1" key="CommitChangelistDialog2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599333186146" />
+    <state x="2511" y="1" key="CommitChangelistDialog2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1600286594255" />
     <state x="473" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598012315966" />
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1597926188355">
       <screen x="0" y="0" width="1536" height="824" />
@@ -246,10 +415,10 @@
     </state>
     <state x="2266" y="73" key="SettingsEditor/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599044692663" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597926264498" />
-    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1599941712929">
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2" timestamp="1600286599835">
       <screen x="1920" y="1" width="1920" height="1040" />
     </state>
-    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1599941712929" />
+    <state x="2371" y="179" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.1.1920.1040@1920.1.1920.1040" timestamp="1600286599835" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598953644006" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1599482720186">
       <screen x="0" y="0" width="1536" height="824" />
