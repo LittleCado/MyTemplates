@@ -14,7 +14,7 @@ This is repo with `JS`, `CSS` templates.
 - [vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/) - A smooth 3D tilt javascript library
 - [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs
 - [Bulma](https://bulma.io/) - CSS framework based on Flexbox
-
+- [react-rellax-wrapper](https://www.npmjs.com/package/react-rellax-wrapper)
 
 
 ## Libs/frameworks that I wanna try:
