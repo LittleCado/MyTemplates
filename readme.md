@@ -27,6 +27,8 @@ This is repo with `JS`, `CSS` templates.
 - [Anime.js](https://github.com/juliangarnier/anime) - JavaScript animation engine
 - [Iconate.js](https://github.com/bitshadow/iconate) - Transform your icons with trendy animations
 - [MoreToggles.css](https://github.com/JNKKKK/MoreToggles.css) - CSS library that provides you with a variety of nice-looking toggles
+- [Chart.js](https://www.chartjs.org/) - JavaScript charting for designers & developers
+- [three.js](https://threejs.org/) - For anyone interested in 3D design
 
 
 ## Tech that I wanna learn:
