@@ -15,6 +15,7 @@ This is repo with `JS`, `CSS` templates.
 - [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs
 - [Bulma](https://bulma.io/) - CSS framework based on Flexbox
 - [react-rellax-wrapper](https://www.npmjs.com/package/react-rellax-wrapper)
+- [Ant Design](https://ant.design/) - A design system for enterprise-level products.
 
 
 ## Libs/frameworks that I wanna try:
